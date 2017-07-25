@@ -29,6 +29,7 @@ public class Principal {
 		
 		ControleCliente ctrl = ControleCliente.getInstance();
 		ctrl.inicia();
+        System.out.println("Salve");
 	}
 
 }
